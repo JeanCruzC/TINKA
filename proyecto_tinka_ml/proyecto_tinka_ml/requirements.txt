@@ -1,9 +1,0 @@
-pandas
-numpy
-matplotlib
-scipy
-SQLAlchemy
-mysql-connector-python
-streamlit
-snowflake-connector-python
-snowflake-snowpark-python
