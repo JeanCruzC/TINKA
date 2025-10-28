@@ -1,6 +1,9 @@
 pandas
 numpy
-mysql-connector-python
 matplotlib
 scipy
 SQLAlchemy
+mysql-connector-python
+streamlit
+snowflake-connector-python
+snowflake-snowpark-python
