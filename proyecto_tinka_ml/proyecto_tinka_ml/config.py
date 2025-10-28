@@ -7,11 +7,31 @@ DB_CONFIG = {
     "port": 3306,
     "database": "tinka_db",
     "user": "root",
-    "password": ""
+    "password": "",
 }
 
 # Tabla con los resultados
 TABLE_NAME = "resultados"
+
+# === Snowflake ===
+# Los valores se pueden sobreescribir utilizando ``streamlit.secrets["snowflake"]``
+# cuando la aplicación se despliega dentro de Snowflake/Streamlit, o mediante
+# variables de entorno en entornos locales. Los campos vacíos actúan como
+# marcadores de posición.
+SNOWFLAKE_CONFIG = {
+    "account": "",
+    "user": "",
+    "password": "",
+    "role": "",
+    "warehouse": "",
+    "database": "",
+    "schema": "",
+    # Campo opcional; si no se indica se utilizará ``SNOWFLAKE_TABLE``.
+    "table": "",
+}
+
+# Nombre de la tabla principal en Snowflake.
+SNOWFLAKE_TABLE = "RESULTADOS"
 
 # === Carpetas ===
 BASE_DIR = Path(__file__).resolve().parent
