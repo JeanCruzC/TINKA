@@ -1,0 +1,242 @@
+[
+  {
+    "id_sorteo": 1206,
+    "fecha_sorteo": "2025-06-25",
+    "numeros": "38 30 08 27 48 14",
+    "boliyapa": 17,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:07"
+  },
+  {
+    "id_sorteo": 1207,
+    "fecha_sorteo": "2025-06-29",
+    "numeros": "47 37 32 22 24 23",
+    "boliyapa": 4,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:08"
+  },
+  {
+    "id_sorteo": 1208,
+    "fecha_sorteo": "2025-07-02",
+    "numeros": "14 28 32 07 10 29",
+    "boliyapa": 36,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:55:10"
+  },
+  {
+    "id_sorteo": 1209,
+    "fecha_sorteo": "2025-07-06",
+    "numeros": "29 20 14 11 03 15",
+    "boliyapa": 35,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:55:10"
+  },
+  {
+    "id_sorteo": 1210,
+    "fecha_sorteo": "2025-07-09",
+    "numeros": "35 28 09 42 31 16",
+    "boliyapa": 45,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:55:11"
+  },
+  {
+    "id_sorteo": 1211,
+    "fecha_sorteo": "2025-07-13",
+    "numeros": "09 32 43 49 38 24",
+    "boliyapa": 5,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:10"
+  },
+  {
+    "id_sorteo": 1212,
+    "fecha_sorteo": "2025-07-16",
+    "numeros": "36 22 37 11 07 01",
+    "boliyapa": 24,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:11"
+  },
+  {
+    "id_sorteo": 1213,
+    "fecha_sorteo": "2025-07-20",
+    "numeros": "42 45 28 06 19 05",
+    "boliyapa": 10,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:12"
+  },
+  {
+    "id_sorteo": 1214,
+    "fecha_sorteo": "2025-07-23",
+    "numeros": "22 13 24 43 02 01",
+    "boliyapa": 21,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:13"
+  },
+  {
+    "id_sorteo": 1215,
+    "fecha_sorteo": "2025-07-27",
+    "numeros": "36 24 04 21 34 09",
+    "boliyapa": 17,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:15"
+  },
+  {
+    "id_sorteo": 1216,
+    "fecha_sorteo": "2025-07-30",
+    "numeros": "43 28 03 09 01 25",
+    "boliyapa": 23,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:16"
+  },
+  {
+    "id_sorteo": 1217,
+    "fecha_sorteo": "2025-08-03",
+    "numeros": "45 41 02 14 23 46",
+    "boliyapa": 22,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:55:12"
+  },
+  {
+    "id_sorteo": 1218,
+    "fecha_sorteo": "2025-08-06",
+    "numeros": "38 23 06 21 33 36",
+    "boliyapa": 16,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:55:13"
+  },
+  {
+    "id_sorteo": 1219,
+    "fecha_sorteo": "2025-08-10",
+    "numeros": "24 46 29 19 25 47",
+    "boliyapa": 26,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:17"
+  },
+  {
+    "id_sorteo": 1220,
+    "fecha_sorteo": "2025-08-13",
+    "numeros": "36 07 43 32 20 33",
+    "boliyapa": 17,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:18"
+  },
+  {
+    "id_sorteo": 1221,
+    "fecha_sorteo": "2025-08-17",
+    "numeros": "34 11 39 07 26 27",
+    "boliyapa": 37,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:19"
+  },
+  {
+    "id_sorteo": 1222,
+    "fecha_sorteo": "2025-08-20",
+    "numeros": "28 37 09 29 06 49",
+    "boliyapa": 48,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:21"
+  },
+  {
+    "id_sorteo": 1223,
+    "fecha_sorteo": "2025-08-24",
+    "numeros": "12 37 16 08 22 17",
+    "boliyapa": 7,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:22"
+  },
+  {
+    "id_sorteo": 1224,
+    "fecha_sorteo": "2025-08-27",
+    "numeros": "40 19 13 46 30 36",
+    "boliyapa": 3,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:23"
+  },
+  {
+    "id_sorteo": 1225,
+    "fecha_sorteo": "2025-08-31",
+    "numeros": "30 35 32 12 38 04",
+    "boliyapa": 29,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:24"
+  },
+  {
+    "id_sorteo": 1226,
+    "fecha_sorteo": "2025-09-03",
+    "numeros": "23 21 15 14 48 18",
+    "boliyapa": 10,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:55:14"
+  },
+  {
+    "id_sorteo": 1227,
+    "fecha_sorteo": "2025-09-07",
+    "numeros": "29 15 07 33 17 23",
+    "boliyapa": 8,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:55:15"
+  },
+  {
+    "id_sorteo": 1228,
+    "fecha_sorteo": "2025-09-10",
+    "numeros": "01 16 06 45 33 38",
+    "boliyapa": 27,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:26"
+  },
+  {
+    "id_sorteo": 1229,
+    "fecha_sorteo": "2025-09-14",
+    "numeros": "35 06 12 33 38 02",
+    "boliyapa": 14,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:27"
+  },
+  {
+    "id_sorteo": 1230,
+    "fecha_sorteo": "2025-09-17",
+    "numeros": "39 44 19 34 24 14",
+    "boliyapa": 47,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:28"
+  },
+  {
+    "id_sorteo": 1231,
+    "fecha_sorteo": "2025-09-21",
+    "numeros": "46 44 02 28 20 32",
+    "boliyapa": 39,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:29"
+  },
+  {
+    "id_sorteo": 1232,
+    "fecha_sorteo": "2025-09-24",
+    "numeros": "21 39 43 46 31 24",
+    "boliyapa": 41,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:31"
+  },
+  {
+    "id_sorteo": 1233,
+    "fecha_sorteo": "2025-09-28",
+    "numeros": "24 17 31 09 35 44",
+    "boliyapa": 33,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:38:32"
+  },
+  {
+    "id_sorteo": 1234,
+    "fecha_sorteo": "2025-10-01",
+    "numeros": "13 36 37 41 14 10",
+    "boliyapa": 1,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:55:16"
+  },
+  {
+    "id_sorteo": 1235,
+    "fecha_sorteo": "2025-10-05",
+    "numeros": "02 31 06 14 45 23",
+    "boliyapa": 5,
+    "jackpot": 0.0,
+    "created_at": "2025-10-08 14:55:17"
+  }
+]
