@@ -1,17 +1,17 @@
-name: app_environment
+name: app_env
 channels:
   - snowflake
   - conda-forge
 dependencies:
   - python=3.11
+  - streamlit
+  - snowflake-snowpark-python
+  - pandas
+  - numpy
+  - matplotlib=3.7.2
+  - scipy
+  - sqlalchemy
   - pip
   - pip:
-      - pandas
-      - numpy
-      - matplotlib
-      - scipy
-      - SQLAlchemy
       - mysql-connector-python
-      - streamlit
       - snowflake-connector-python
-      - snowflake-snowpark-python
