@@ -15,4 +15,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://jeanmarcocruz207:$HF_TOKEN@huggingface.co/spaces/jeanmarcocruz207/tinka_analytics main
+        run: git push https://jeanmarcocruz207:${HF_TOKEN}@huggingface.co/spaces/jeanmarcocruz207/Tinka_Analytics main
