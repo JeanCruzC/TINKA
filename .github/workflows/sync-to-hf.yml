@@ -1,8 +1,8 @@
 name: Sync to Hugging Face hub
+
 on:
   push:
     branches: [main]
-  workflow_dispatch:
 
 jobs:
   sync-to-hub:
@@ -10,12 +10,14 @@ jobs:
     env:
       HF_SPACE: jeanmarcocruz207/Tinka_Analytics
       HF_TOKEN: ${{ secrets.HF_TOKEN }}
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Push code to HF Space (overwrite safely)
+      - name: Push code to HF Space (simple & force)
         run: |
           set -e
           git config user.email "action@github.com"
@@ -23,4 +25,5 @@ jobs:
           git lfs install
           git remote remove hub 2>/dev/null || true
           git remote add hub "https://jeanmarcocruz207:${HF_TOKEN}@huggingface.co/spaces/${HF_SPACE}"
-          git push hub main --force-with-lease
+          git fetch hub main || true
+          git push hub HEAD:main --force
