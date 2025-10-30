@@ -1,3 +1,12 @@
+---
+title: Tinka Analytics
+emoji: 🧮
+colorFrom: indigo
+colorTo: blue
+sdk: docker
+pinned: false
+---
+
 # Tinka Analytics
 
 Aplicación integral para analizar los sorteos de la Tinka y generar combinaciones
