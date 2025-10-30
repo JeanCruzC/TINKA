@@ -7,12 +7,20 @@ on:
 jobs:
   sync-to-hub:
     runs-on: ubuntu-latest
+    env:
+      HF_SPACE: jeanmarcocruz207/Tinka_Analytics
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          lfs: true
-      - name: Push to hub
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://jeanmarcocruz207:${HF_TOKEN}@huggingface.co/spaces/jeanmarcocruz207/Tinka_Analytics main
+
+      - name: Push code to HF Space (overwrite safely)
+        run: |
+          set -e
+          git config user.email "action@github.com"
+          git config user.name  "GitHub Action"
+          git lfs install
+          git remote remove hub 2>/dev/null || true
+          git remote add hub "https://jeanmarcocruz207:${HF_TOKEN}@huggingface.co/spaces/${HF_SPACE}"
+          git push hub main --force-with-lease
